@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local OS/editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Local papers and generated artifacts
+*.pdf
+*.pptx
+*.docx
+*.log
+extracted_figures/
+figures/
+outputs/
+downloads/
+tmp/
+temp/
+*_extracted.txt
+*_slides.md

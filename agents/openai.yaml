@@ -1,0 +1,4 @@
+interface:
+  display_name: "Paper Reading PPT"
+  short_description: "Generate Chinese PPT-ready paper explanations."
+  default_prompt: "Use $paper-reading-ppt to explain this paper section as Chinese PPT-ready slides."
