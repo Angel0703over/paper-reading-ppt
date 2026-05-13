@@ -1,14 +1,12 @@
 ---
 name: paper-reading-ppt
 description: >-
-  Analyze AI systems papers and generate Chinese PPT-ready explanations, slide
-  outlines, speaker notes, formula explanations, figure/table interpretations,
-  related-work summaries, and evaluation-section walkthroughs. Use when the user
-  asks to read a paper, prepare PPT content, explain equations, explain figures
-  or tables, summarize experiments, compress a section into one slide, or
-  produce Chinese research-group presentation notes for AI systems, LLM serving,
-  KV cache, edge inference, scheduling, distributed inference, or multimodal
-  inference papers.
+  Generate Chinese PPT-ready explanations for AI systems papers, including
+  section slides, speaker notes, formula explanations, figure/table
+  interpretations, evaluation walkthroughs, related-work summaries, and
+  one-slide compression. Use when the user asks to read a paper, prepare slides,
+  explain equations, explain figures/tables, summarize experiments, or produce
+  research-group presentation notes.
 ---
 
 # Paper Reading PPT
@@ -27,6 +25,16 @@ Use this skill to turn academic paper material into Chinese presentation content
 - Explain what the authors are trying to solve, why the design is needed, and how the evidence supports the conclusion.
 - Avoid fabricating datasets, results, baselines, equations, figure trends, or experimental conclusions.
 - Default to concise Chinese PPT-ready wording with speaker notes.
+
+## Output Language
+
+- Use Chinese by default.
+- Keep important technical terms in English when they are standard in the field.
+- Use Chinese academic presentation style rather than casual chat style.
+
+## Priority
+
+Follow the user's latest explicit instruction first. If the user asks for shorter, more detailed, one-page, oral-version, or formula-light output, override the default template accordingly.
 
 ## Resource Map
 
